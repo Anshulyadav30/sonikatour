@@ -578,6 +578,54 @@ body, p, h1, h2, h3, h4, h5, h6 {
 ============================================================================================ */
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
+/* Carousel height control */
+.carousel,
+.carousel-inner,
+.carousel-bg {
+  width: 100%;
+  height: 85vh;
+}
+
+/* Background image handling */
+.carousel-bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* Desktop images */
+.bg-1 {
+  background-image: url("crysta.jpeg");
+}
+
+.bg-2 {
+  background-image: url("bus-yo.png");
+}
+
+/* Text positioning */
+.carousel-caption {
+  bottom: 35%;
+  text-align: center;
+}
+
+/* Mobile optimization */
+@media (max-width: 768px) {
+  .carousel,
+  .carousel-inner,
+  .carousel-bg {
+    height: 55vh;
+  }
+
+  .carousel-caption h1 {
+    font-size: 28px;
+  }
+
+  .carousel-caption h2 {
+    font-size: 18px;
+  }
+}
+
 /* End Main Slider css
 ============================================================================================ */
 .main_slider_area {
