@@ -596,11 +596,11 @@ body, p, h1, h2, h3, h4, h5, h6 {
 
 /* Desktop images */
 .bg-1 {
-  background-image: url("crysta.jpeg");
+  background-image: url("/crysta.jpeg");
 }
 
 .bg-2 {
-  background-image: url("Bus-Yo.png");
+  background-image: url("/Bus-Yo.png");
 }
 
 /* Text positioning */
