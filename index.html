@@ -585,8 +585,35 @@
         <script src="js/menu-fixed.js"></script>
         <script src="js/video_player.js"></script>
         <script src="js/theme.js"></script>
+
+        <script>
+jQuery(document).ready(function($) {
+  if ($.fn.revolution !== undefined) {
+    $("#home-slider").revolution({
+      sliderType: "standard",
+      sliderLayout: "fullscreen",
+      delay: 5000,
+      navigation: {
+        arrows: {
+          enable: true
+        },
+        bullets: {
+          enable: true
+        }
+      },
+      responsiveLevels:[1240,1024,778,480],
+      gridwidth:[1240,1024,778,480],
+      gridheight:[600,600,500,450]
+    });
+  } else {
+    console.error("Revolution Slider not loaded");
+  }
+});
+</script>
+
     </body>
 </html>
+
 
 
 
