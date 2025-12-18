@@ -25,9 +25,9 @@
         <link href="css/bootstrap.min.css" rel="stylesheet">
         
         <!-- Rev slider css -->
-        <link href="settings.css" rel="stylesheet">
+        <!--link href="settings.css" rel="stylesheet">
         <link href="layers.css" rel="stylesheet">
-        <link href="navigation.css" rel="stylesheet">
+        <link href="navigation.css" rel="stylesheet"> -->
         <link href="animate-css/animate.css" rel="stylesheet">
         
         <!-- Extra plugin css -->
@@ -153,108 +153,49 @@
         <!--================ End Main Header Area =================-->
         
         <!--================ Slider Area =================-->
-        <section class="main_slider_area">
-            <div class="rev_slider"  data-version="5.0" id="home-slider">
-                <ul> 
-                    <li data-slotamount="7" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="600" data-rotate="0" data-saveperformance="off">
-                        <!-- MAIN IMAGE -->
-                        <img src="crysta.jpeg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
-                        <!-- LAYERS -->
+       <section class="main_slider_area">
+  <div id="mainCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="4000">
 
-                        <!-- LAYER NR. 1 -->
-                        <div class="slider_text_box">
-                           <div class="tp-caption first_text" 
-                                data-width="none"
-                                data-height="none"
-                                data-whitespace="nowrap"
-                                data-x="['left','left','left','left','center']" 
-                                data-y="top"
-                                data-voffset="['395,'395','320','270','200']"
-                                data-fontsize="['55','55','35','35','20']" 
-                                data-lineheight="['60','60','45','45','30']" 
-                                data-transform_idle="o:1;"
-                                data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                                data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" 
-                                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
-                                data-start="800" 
-                                data-splitin="none" 
-                                data-splitout="none" 
-                                data-responsive_offset="on">Seamless Journeys
-                            </div>
-                            <div class="tp-caption secand_text" 
-                                data-x="['left','left','left','left','center']" 
-                                data-y="top" 
-                                data-voffset="['470','470','370','270']"
-                                data-fontsize="['78','78','45','45','25']"
-                                data-lineheight="['82','82','55','55','38']"
-                                data-width="none"
-                                data-height="none"
-                                data-transform_idle="o:1;"
-                                data-whitespace="nowrap"
-                                data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" 
-                                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                                data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
-                                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
-                                data-start="1000" 
-                                data-splitin="chars" 
-                                data-splitout="none" 
-                                data-responsive_offset="on" 
-                                data-elementdelay="0.05" >Trusted Destinations
-                            </div>
-                        </div>
-                    </li>
-                    <li data-slotamount="7" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="600" data-rotate="0" data-saveperformance="off">
-                        <!-- MAIN IMAGE -->
-                        <img src="Bus Yo.png"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
-                        <!-- LAYERS -->
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#mainCarousel" data-slide-to="1"></li>
+    </ol>
 
-                        <!-- LAYER NR. 1 -->
-                        <div class="slider_text_box">
-                           <div class="tp-caption first_text" 
-                                data-width="none"
-                                data-height="none"
-                                data-whitespace="nowrap"
-                                data-voffset="['395,'395','320','270','200']"
-                                data-x="['left','left','left','left','center']" 
-                                data-y="top"
-                                data-fontsize="['55','55','35','35','20']" 
-                                data-lineheight="['60','60','45','45','30']" 
-                                data-transform_idle="o:1;"
-                                data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                                data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" 
-                                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
-                                data-start="800" 
-                                data-splitin="none" 
-                                data-splitout="none" 
-                                data-responsive_offset="on">Seamless Journeys
-                            </div>
-                            <div class="tp-caption secand_text" 
-                                data-x="['left','left','left','left','center']" 
-                                data-y="top" 
-                                data-voffset="['470','470','370','270']"
-                                data-fontsize="['78','78','45','45','25']"
-                                data-lineheight="['82','82','55','55','38']"
-                                data-width="none"
-                                data-height="none"
-                                data-transform_idle="o:1;"
-                                data-whitespace="nowrap"
-                                data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                                data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" 
-                                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
-                                data-start="1000" 
-                                data-splitin="chars" 
-                                data-splitout="none" 
-                                data-responsive_offset="on" 
-                                data-elementdelay="0.05" >Trusted Destiinations
-                            </div>
-                        </div>
-                    </li>
-                </ul> 
-            </div><!-- END REVOLUTION SLIDER -->
-        </section>
+    <!-- Slides -->
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <div class="item active">
+        <img src="crysta.jpeg" alt="Crysta" style="width:100%; height:600px; object-fit:cover;">
+        <div class="carousel-caption">
+          <h2 class="animated fadeInDown">Seamless Journeys</h2>
+          <h1 class="animated fadeInUp">Trusted Destinations</h1>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="item">
+        <img src="bus-yo.png" alt="Bus" style="width:100%; height:600px; object-fit:cover;">
+        <div class="carousel-caption">
+          <h2 class="animated fadeInDown">Seamless Journeys</h2>
+          <h1 class="animated fadeInUp">Trusted Destinations</h1>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#mainCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#mainCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+
+  </div>
+</section>
+
         <!--================ End Slider Area =================-->
         
         <!--================ About History Area =================-->
@@ -566,7 +507,7 @@
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
         <!-- Rev slider js -->
-        <script src="vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
+        <!--script src="vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
         <script src="vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>
         <script src="vendors/revolution/js/extensions/revolution.extension.video.min.js"></script>
         <script src="vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
@@ -613,6 +554,7 @@ jQuery(document).ready(function($) {
 
     </body>
 </html>
+
 
 
 
