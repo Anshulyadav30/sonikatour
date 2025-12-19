@@ -578,49 +578,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
 ============================================================================================ */
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
-/* Carousel height control */
-/* Force carousel height */
-.main_slider_area,
-.carousel,
-.carousel-inner,
-.carousel-inner .item,
-.carousel-bg {
-  height: 80vh;
-}
-
-/* Background images */
-.carousel-bg {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-}
-
-/* Image paths (adjust if images are in a folder) */
-.bg-1 {
-  background-image: url("./crysta.jpeg");
-}
-
-.bg-2 {
-  background-image: url("./Bas.jpeg");
-}
-
-/* Text positioning */
-.carousel-caption {
-  bottom: 35%;
-}
-
-/* Mobile fix */
-@media (max-width: 768px) {
-  .main_slider_area,
-  .carousel,
-  .carousel-inner,
-  .carousel-inner .item,
-  .carousel-bg {
-    height: 55vh;
-  }
-}
-
 
 /* End Main Slider css
 ============================================================================================ */
