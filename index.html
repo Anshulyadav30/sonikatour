@@ -42,6 +42,53 @@
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+
+        <style>
+/* ===== FORCE SLIDER HEIGHT ===== */
+.main_slider_area,
+#mainCarousel,
+.carousel-inner,
+.carousel-inner .item,
+.carousel-bg {
+  height: 80vh;
+}
+
+/* ===== BACKGROUND SLIDES ===== */
+.carousel-bg {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* ===== IMAGE PATHS (ROOT LEVEL) ===== */
+.bg-1 {
+  background-image: url("crysta.jpeg");
+}
+
+.bg-2 {
+  background-image: url("bus-yo.png");
+}
+
+/* ===== TEXT POSITION ===== */
+.carousel-caption {
+  bottom: 35%;
+}
+
+/* ===== MOBILE FIX ===== */
+@media (max-width: 768px) {
+  .main_slider_area,
+  #mainCarousel,
+  .carousel-inner,
+  .carousel-inner .item,
+  .carousel-bg {
+    height: 55vh;
+  }
+}
+</style>
+
     </head>
     <body>
        
@@ -555,6 +602,7 @@ jQuery(document).ready(function($) {
 
     </body>
 </html>
+
 
 
 
