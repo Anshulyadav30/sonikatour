@@ -90,6 +90,80 @@
 </style>
 
         <style>
+/* ================================
+   NAVBAR + LOGO FIX (BOOTSTRAP SAFE)
+   ================================ */
+
+/* Main navbar height & alignment */
+.navbar {
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  background-color: #2f343b; /* match your navbar */
+}
+
+/* Navbar header alignment */
+.navbar-header {
+  display: flex;
+  align-items: center;
+}
+
+/* Brand container */
+.navbar-brand {
+  padding: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+/* LOGO IMAGE — MOST IMPORTANT */
+#logo1 {
+  height: 55px;        /* premium size */
+  width: auto;         /* prevent stretch */
+  max-width: 180px;    /* safety */
+  object-fit: contain; /* clean fit */
+}
+
+/* Menu spacing */
+.navbar-nav > li > a {
+  line-height: 80px;   /* vertically center menu text */
+  padding-top: 0;
+  padding-bottom: 0;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+/* Hover effect (optional premium touch) */
+.navbar-nav > li > a:hover {
+  color: #f5c16c;
+}
+
+/* ================================
+   MOBILE RESPONSIVE
+   ================================ */
+@media (max-width: 768px) {
+
+  .navbar {
+    min-height: 70px;
+  }
+
+  .navbar-brand {
+    height: 70px;
+  }
+
+  #logo1 {
+    height: 45px;
+  }
+
+  .navbar-nav > li > a {
+    line-height: normal;
+    padding: 10px 15px;
+  }
+}
+</style>
+
+        
+        <style>
   /* ===== SERVICES SECTION ===== */
   .services_area {
     padding: 80px 0;
@@ -651,6 +725,7 @@ jQuery(document).ready(function($) {
 
     </body>
 </html>
+
 
 
 
